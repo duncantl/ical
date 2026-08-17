@@ -2,9 +2,9 @@
 
 This extends the ical to include the names of attendees of each event.
 
-We do this by changing the JavaScript code in the `ical::ical_parse()`.
+We do this by changing the JavaScript code in the `ical::ical_parse()` function.
 
-The updated code (adapted directly from the ical package) is in [cal.js](cal.js).
+The updated code (extended directly from the ical package) is in [cal.js](cal.js).
 
 One can source() the [cal.R](cal.R) file to update the 
 `ical::ical_parse()` function in the `ical` package's namespace with the modified JavaScript code.
@@ -14,4 +14,7 @@ string consisting of a comma-separated list of "common name" for each attendee. 
 may be a regular name or an email address.
 
 
+# License
+
+Same as the ical package - MIT.
 
