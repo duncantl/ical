@@ -61,8 +61,8 @@
 		  return "";
 	      txt = "";
 	      a.forEach(function(at) {
-		  txt += at.getParameter('cn') + ", ";
+		  txt += ", " + at.getParameter('cn');
 	      });
-	      return txt;
+	      return txt.slice(2);
 	  })      
   }
