@@ -20,7 +20,7 @@ Same as the ical package - MIT.
 
 
 
-#
+# Automatically changing the `ical_parse()` function
 
 To set this programmatically, we can use
 ```r
